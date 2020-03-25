@@ -1,0 +1,28 @@
+.App{
+
+  .willwatch{
+    margin-top: 100px;
+  }
+
+
+  ul{
+    // width: 500px;
+
+
+    li{
+      // display: flex;
+      // width: 350px;
+      // height: 350px;
+
+      div{
+        display: flex;
+        flex-direction: column;
+
+        img{
+          object-fit: cover;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

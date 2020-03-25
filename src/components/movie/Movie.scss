@@ -1,0 +1,44 @@
+.moviedata{
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.movie{
+
+    &--wrapper{
+        margin-top: 50px;
+        display: flex;
+        width: 500px;
+        height: 1000px;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+        
+
+        span{
+        
+            &:first-of-type{
+                font-size: 18px;
+            }
+
+            &.overview__hidden{
+                text-align: center;
+                display: none;
+            }
+
+            &.overview__showed{
+                display: inline-block;
+            }
+        
+        }
+    }
+
+    &__img{
+        height: 747px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+   
+}
